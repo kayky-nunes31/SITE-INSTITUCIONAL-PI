@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', 'Segoe UI', Tahoma, Geneva;
+    background-color: #000000;
+
+}
+.header {
+    color: #32B9CD;
+    border-bottom: 3px solid #32B9CD;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #E3B062;
+}
+
+.navbar a{
+    color: #E3B062;
+    text-decoration: none;
+}
+
+.agora{
+    font-weight: 800;
+}
+
+/* Banner */
+
+.banner {
+    height: 500px;
+    color: #FFF;
+    background-size: cover;
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+  /*  background-image: url("http://pudim.com.br/pudim.jpg"); */
+   /* background-image: url("https://i.pinimg.com/originals/c9/97/6f/c9976fc3a92540856bb957a76818875d.gif"); */
+}
+
+.banner .container{
+    height: 500px;
+    /* display: flex; */
+    align-items: center;
+}
+
+.banner p {
+    width: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    margin-left: 350px;
+}
+
+.banner span {
+    font-weight: 800;
+}
+
+/* SOCIAL */
+
+.social {
+    background-color: #E5E5E5;
+    padding: 50px 0;
+}
+
+.social .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.social .titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.social h2{
+    display: flex;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: #E6005A;
+    margin: 0;
+}
